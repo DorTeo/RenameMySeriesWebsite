@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RenameMySeries</title>
+  <link rel="icon" type="viri/favicon (4).ico" href="viri/favicon (4).ico">
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0c0c0c;
+      color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1e1e1e;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 80px;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8em;
+    }
+
+    header p {
+      color: #ccc;
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: 10px auto 0 auto;
+    }
+
+  .container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+    }
+
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .feature, .testimonial {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .cta {
+      text-align: center;
+      margin: 50px 0;
+    }
+
+    .cta a {
+      display: inline-block;
+      background: #007acc;
+      color: #fff;
+      padding: 15px 40px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1.3em;
+      transition: background 0.3s ease;
+    }
+
+    .cta a:hover {
+      background: #005f99;
+    }
+
+    .instructions {
+      background: #1a1a1a;
+      padding: 30px;
+      border-radius: 8px;
+    }
+
+    .screenshots img {
+      width: 100%;
+      border-radius: 5px;
+      margin: 10px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #777;
+      font-size: 0.9em;
+    }
+
+    .screenshots img {
+  width: 100%;
+  max-width: 1200px; /* allows them to be wider */
+  display: block;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="viri/Logo aplikacije RenameMySeries.png" alt="RenameMySeries Logo">
+    <h1>RenameMySeries</h1>
+    <p>Batch rename all your TV episodes and subtitles automatically — get your media library neat, clean, and organized in seconds.</p>
+  </header>
+
+  <div class="container">
+    <section class="features">
+      <div class="feature">
+        <h3>🎬 Smart Episode Matching</h3>
+        <p>Detects common naming patterns like S01E01, 1x01, or Season 1 Episode 1 and renames them consistently.</p>
+      </div>
+      <div class="feature">
+        <h3>📝 Auto Subtitle Sync</h3>
+        <p>Renames '.srt' subtitle files to match video files so they load automatically in any player.</p>
+      </div>
+      <div class="feature">
+        <h3>⚡ Batch & Recursive</h3>
+        <p>Renames entire folders and subfolders in seconds. Just paste your path and click.</p>
+      </div>
+    </section>
+
+    <section class="cta">
+      <a href="#download">Download Now</a>
+    </section>
+
+    <section id="instructions" class="instructions">
+      <h2>How to Use</h2>
+      <ol>
+        <li>Download and install RenameMySeries.</li>
+        <li>Open the app and paste the path to your series folder.</li>
+        <li>(Optional) Enter a custom series name to add it to each file.</li>
+        <li>Click *Rename* and let it do the work.</li>
+        <li>Enjoy perfectly named videos and subtitles!</li>
+      </ol>
+    </section>
+
+    <section id="screenshots" class="screenshots">
+      <h2>Screenshots</h2>
+      <img src="viri/Screenshot 2025-07-28 172155.png" alt="Before">
+      <img src="viri/Screenshot 2025-07-28 172247.png" alt="RenameMySeries">
+      <img src="viri/Screenshot 2025-07-28 172309.png" alt="After">
+    </section>
+
+    <section id="testimonials">
+      <h2>What Users Say</h2>
+      <div class="testimonial">
+        <p>“I had 500 random episode files. In 2 minutes, RenameMySeries renamed them all and my subtitles finally work!”</p>
+        <p><strong>— Alex R.</strong></p>
+      </div>
+      <div class="testimonial">
+        <p>“Perfect for Plex and Jellyfin. Zero manual work, works flawlessly.”</p>
+        <p><strong>— Sarah T.</strong></p>
+      </div>
+    </section>
+
+    <section class="cta">
+      <a id="download" href="https://github.com/DorTeo/RenameMySeries-download/releases/tag/app">Download RenameMySeries</a>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 RenameMySeries. All rights reserved.
+  </footer>
+
+</body>
+</html>
